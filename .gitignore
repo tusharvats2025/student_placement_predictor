@@ -1,0 +1,23 @@
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore output artifacts
+outputs/*.pkl
+outputs/*.csv
+outputs/*.json
+outputs/*.joblib
+
+# Ignore data if needed (optional)
+# data/
